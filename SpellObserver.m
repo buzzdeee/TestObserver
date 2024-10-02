@@ -50,7 +50,7 @@
 // KVO Change Notification Handler
 - (void)observeValueForKeyPath:(NSString *)keyPath
                       ofObject:(id)object
-                        change:(NSDictionary<NSKeyValueChangeKey,id> *)change
+                        change:(NSDictionary<NSString *,id> *)change
                        context:(void *)context {
     if ([keyPath isEqualToString:@"isActiveSpell"]) {
         NSLog(@"isActiveSpell changed: %@", change[NSKeyValueChangeNewKey]);

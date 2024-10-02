@@ -29,13 +29,6 @@ TestObserver_TOOL_ICON =
 
 
 #
-# Resource files
-#
-TestObserver_RESOURCE_FILES = \
-Resources/Version \
-
-
-#
 # Header files
 #
 TestObserver_HEADER_FILES = \

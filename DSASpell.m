@@ -33,7 +33,20 @@
 
 // KVO Dependencies
 + (NSSet *)keyPathsForValuesAffectingIsActiveSpell {
+    NSLog(@"keyPathsForValuesAffectingIsActiveSpell got called!");
     return [NSSet setWithObjects:@"everLeveledUp", @"level", @"isTraditionSpell", nil];
 }
+
+/*
++(NSSet *)keyPathsForValuesAffectingValueForKey: (NSString *)key
+{
+  NSLog(@"DSASpell keyPathsForValuesAffectingValueForKey: %@", key);
+  NSSet *keyPaths = [super keyPathsForValuesAffectingValueForKey: key];
+  if ([key isEqualToString: @"isActiveSpell"])
+    {
+      keyPaths = [NSSet setWithObjects:@"everLeveledUp", @"level", @"isTraditionSpell", nil];   
+    }
+  return keyPaths;
+} */
 
 @end
