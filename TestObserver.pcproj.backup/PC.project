@@ -1,0 +1,73 @@
+{
+    "BUILDER_TARGETS" = (
+	all,
+	install,
+	uninstall,
+	clean,
+	distclean,
+	dist
+    );
+    "CLASS_FILES" = (
+	"DSASpell.m",
+	"SpellObserver.m"
+    );
+    COMPILEROPTIONS = "";
+    CPPOPTIONS = "";
+    "CREATION_DATE" = "2024-10-02 15:19:00 +0200";
+    "DOCU_FILES" = (
+    );
+    FRAMEWORKS = (
+    );
+    "HEADER_FILES" = (
+	"DSASpell.h",
+	"SpellObserver.h"
+    );
+    IMAGES = (
+    );
+    INSTALLDIR = "$(HOME)/GNUstep/Tools";
+    LANGUAGE = English;
+    LIBRARIES = (
+	"gnustep-base"
+    );
+    LINKEROPTIONS = "";
+    "LOCALIZED_RESOURCES" = (
+    );
+    MAKEFILEDIR = "$(GNUSTEP_MAKEFILES)";
+    "OBJC_COMPILEROPTIONS" = "-fobjc-arc";
+    "OTHER_RESOURCES" = (
+	Version
+    );
+    "OTHER_SOURCES" = (
+	"main.m"
+    );
+    "PROJECT_AUTHORS" = (
+    );
+    "PROJECT_COPYRIGHT" = "Copyright (C) 200x";
+    "PROJECT_COPYRIGHT_DESC" = "Released under ...";
+    "PROJECT_CREATOR" = "Sebastian Reitenbach";
+    "PROJECT_DESCRIPTION" = "No description available!";
+    "PROJECT_GROUP" = "No group available!";
+    "PROJECT_MAINTAINER" = "Sebastian Reitenbach";
+    "PROJECT_NAME" = TestObserver;
+    "PROJECT_RELEASE" = "0.1";
+    "PROJECT_SUMMARY" = "No summary available!";
+    "PROJECT_TYPE" = Tool;
+    "PROJECT_URL" = "";
+    "SEARCH_HEADER_DIRS" = (
+    );
+    "SEARCH_LIB_DIRS" = (
+    );
+    SUBPROJECTS = (
+    );
+    "SUPPORTING_FILES" = (
+	"GNUmakefile.preamble",
+	GNUmakefile,
+	"GNUmakefile.postamble",
+	"TestObserverInfo.plist"
+    );
+    TOOLICON = "";
+    "USER_LANGUAGES" = (
+	German,
+	English
+    );
+}
